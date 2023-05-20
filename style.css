@@ -171,6 +171,6 @@ margin: 0 auto;}
 @media (max-width:500px) {
   .menu li a{
  flex-direction: column;
- width: 500px;
+ 
   }
 }
