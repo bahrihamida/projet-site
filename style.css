@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/plage.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo a span{
+    color: #fff;
+    font-size: 30px;
+    text-decoration:none;
+    position: absolute;
+    padding: 5px 20px;
+}
+.menu{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+    
+
+
+}
+
+.menu li a{
+    text-decoration: none;
+   color: #fff;
+    font-size: 13px;
+    padding: 4px 9px;
+    text-transform: uppercase;
+    border: 0.5px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.7s ease;
+}
+.menu li a:hover{
+    background: #fff;
+    color: black;
+}
+
+.active a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.principale{
+     max-width: 114rem;
+margin: 0 auto;}
+
+.titre{
+   position: absolute;
+    top: 40%;
+    left: 30%;
+  
+   
+}
+.titre h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.boutton{
+    position: absolute;
+    top: 70%;
+    left: 48%;
+
+}
+  .boutton a{
+    color:  #000;
+    text-decoration: none;
+    border: 1.5px solid #fff ;
+    font-size: 13px;
+    padding: 5px 5px;
+    margin: 3px;
+    font-weight: 900;
+  }
+
+  .btn{
+    transition: 0.7s ease;
+  }
+  .btn:hover{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+  .ftp{
+  position: absolute;
+    background-color: #222;
+    padding: 30px 50px;
+    width: 100%;
+    height: 30%;
+    bottom: -22%;
+    
+  }
+  .ftp form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+   
+  }
+  .ftp form div , .ftp form input[type="sumbit"]{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+  }
+  .ftp form label{
+    color: #999;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .ftp form input{
+    padding: 8px 100px ;
+    background-color: transparent;
+    border: 1px solid #29d9d5;
+    outline: 0;
+    width: 10%;
+    font-size: 15px;
+    color: #fff; 
+  }
+  .ftp form input[type="submit"]
+    {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #29d9d5;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+  .ftp form input[type="submit"]:hover{
+    box-shadow: 0 0 10px #29d9d5;
+  }
+#aprp{
+    margin-top: 0px;
+    height: 60%;
+    width: 100%;
+}
+.titll{
+    text-transform: capitalize;
+    margin: 0 70px;
+    font-weight: bold;
+    color: #29d9d5;
+    position: relative;
+    margin-left: 40px;
+    top: 190%;
+    font-size: 15px;
+    
+}
+.titll::after{
+    position: absolute;
+    left: -15px;
+    content: "";
+    height: 100%;
+    background-color: #fff;
+    width: 4px;
+
+}
+.imgds .left{
+    position: relative;
+    margin-left: 10px;
+}
+@media (max-width:500px) {
+  .menu li a{
+ flex-direction: column;
+ width: 500px;
+  }
+}
